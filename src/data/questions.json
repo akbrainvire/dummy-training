@@ -1,0 +1,730 @@
+{
+  "data": {
+    "basic": [
+      {
+        "id": 1,
+        "topic": "Basic",
+        "question": "What does JSX stand for in React?",
+        "options": [
+          "JavaScript XML",
+          "Java XML",
+          "JavaScript Extension",
+          "Java Extension"
+        ],
+        "correctAnswer": "JavaScript XML"
+      },
+      {
+        "id": 2,
+        "topic": "Basic",
+        "question": "How do you render a React component?",
+        "options": [
+          "renderComponent()",
+          "createComponent()",
+          "ReactDOM.render()",
+          "React.render()"
+        ],
+        "correctAnswer": "ReactDOM.render()"
+      },
+      {
+        "id": 3,
+        "topic": "Basic",
+        "question": "Explain the significance of state in React.",
+        "options": [
+          "It is used for styling",
+          "It stores and manages component data",
+          "It handles API requests",
+          "It is used for routing"
+        ],
+        "correctAnswer": "It stores and manages component data"
+      },
+      {
+        "id": 4,
+        "topic": "Basic",
+        "question": "What is the purpose of the `props` object in React?",
+        "options": [
+          "To handle user input",
+          "To store component data",
+          "To pass data between components",
+          "To manage state"
+        ],
+        "correctAnswer": "To pass data between components"
+      },
+      {
+        "id": 5,
+        "topic": "Basic",
+        "question": "How do you handle user input in React forms?",
+        "options": [
+          "Using event listeners",
+          "Using the `onChange` attribute",
+          "Using the `setState` method",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "id": 6,
+        "topic": "Basic",
+        "question": "What is the key attribute used for in React lists?",
+        "options": [
+          "To identify elements uniquely in a list",
+          "To set the color of list items",
+          "To specify the order of elements",
+          "To apply styles to list items"
+        ],
+        "correctAnswer": "To identify elements uniquely in a list"
+      },
+      {
+        "id": 7,
+        "topic": "Basic",
+        "question": "Describe the difference between functional components and class components.",
+        "options": [
+          "Functional components use hooks",
+          "Class components use render methods",
+          "Functional components are stateless, while class components can have state",
+          "There is no difference"
+        ],
+        "correctAnswer": "Functional components are stateless, while class components can have state"
+      },
+      {
+        "id": 8,
+        "topic": "Basic",
+        "question": "How can you conditionally render content in React?",
+        "options": [
+          "Using if-else statements",
+          "Using the ternary operator",
+          "Using the `&&` operator",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "id": 9,
+        "topic": "Basic",
+        "question": "What is the role of the `setState` method in React?",
+        "options": [
+          "To update the DOM directly",
+          "To update component state and trigger a re-render",
+          "To handle API requests",
+          "To create class components"
+        ],
+        "correctAnswer": "To update component state and trigger a re-render"
+      },
+      {
+        "id": 10,
+        "topic": "Basic",
+        "question": "Explain the component lifecycle methods in React.",
+        "options": [
+          "Methods that define the component's appearance",
+          "Methods that handle user interactions",
+          "Methods that control the component's behavior at various stages",
+          "Methods that fetch data from an API"
+        ],
+        "correctAnswer": "Methods that control the component's behavior at various stages"
+      },
+      {
+        "id": 11,
+        "topic": "Basic",
+        "question": "What is the purpose of the `key` prop in React lists?",
+        "options": [
+          "To set the background color of list items",
+          "To identify elements uniquely in a list",
+          "To handle mouse events on list items",
+          "To define the order of list items"
+        ],
+        "correctAnswer": "To identify elements uniquely in a list"
+      },
+      {
+        "id": 12,
+        "topic": "Basic",
+        "question": "How do you handle events in React?",
+        "options": [
+          "Using the `event` attribute",
+          "Using the `onEvent` attribute",
+          "Using event listeners",
+          "Events are not supported in React"
+        ],
+        "correctAnswer": "Using event listeners"
+      },
+      {
+        "id": 13,
+        "topic": "Basic",
+        "question": "What is the purpose of the `className` attribute in JSX?",
+        "options": [
+          "To define component classes",
+          "To style React components",
+          "To set the component's state",
+          "To handle API requests"
+        ],
+        "correctAnswer": "To define component classes"
+      },
+      {
+        "id": 14,
+        "topic": "Basic",
+        "question": "How can you pass data from a parent component to a child component in React?",
+        "options": [
+          "Using props",
+          "Using state",
+          "Using the `setData` method",
+          "By directly modifying the child component's state"
+        ],
+        "correctAnswer": "Using props"
+      },
+      {
+        "id": 15,
+        "topic": "Basic",
+        "question": "What is the purpose of the `dangerouslySetInnerHTML` attribute in React?",
+        "options": [
+          "To inject raw HTML into a component",
+          "To handle security vulnerabilities",
+          "To prevent XSS attacks",
+          "To create dynamic styles"
+        ],
+        "correctAnswer": "To inject raw HTML into a component"
+      },
+      {
+        "id": 16,
+        "topic": "Basic",
+        "question": "What is the significance of the `ref` attribute in React?",
+        "options": [
+          "To reference an external library",
+          "To create a reference to a DOM element",
+          "To manage routing",
+          "To define component state"
+        ],
+        "correctAnswer": "To create a reference to a DOM element"
+      },
+      {
+        "id": 17,
+        "topic": "Basic",
+        "question": "How do you import and use external CSS styles in a React component?",
+        "options": [
+          "By linking a CSS file in the HTML file",
+          "By using the `import` statement in the component file",
+          "By using the `style` attribute",
+          "React components cannot use external styles"
+        ],
+        "correctAnswer": "By using the `import` statement in the component file"
+      },
+      {
+        "id": 18,
+        "topic": "Basic",
+        "question": "What is the purpose of the `map` function in React?",
+        "options": [
+          "To create a new array with modified elements",
+          "To handle keyboard events",
+          "To fetch data from an API",
+          "To set component state"
+        ],
+        "correctAnswer": "To create a new array with modified elements"
+      },
+      {
+        "id": 19,
+        "topic": "Basic",
+        "question": "Explain the concept of conditional rendering in React.",
+        "options": [
+          "Rendering components based on user input",
+          "Rendering components conditionally based on a condition",
+          "Rendering components asynchronously",
+          "Rendering components on the server side"
+        ],
+        "correctAnswer": "Rendering components conditionally based on a condition"
+      },
+      {
+        "id": 20,
+        "topic": "Basic",
+        "question": "What is the purpose of the `bind` method in React?",
+        "options": [
+          "To bind event handlers to the component",
+          "To create a new function with a specific `this` value",
+          "To handle form submissions",
+          "To fetch data from an API"
+        ],
+        "correctAnswer": "To create a new function with a specific `this` value"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": 21,
+        "topic": "Intermediate",
+        "question": "Explain the concept of higher-order components (HOC) in React.",
+        "options": [
+          "Components that are rendered higher in the DOM tree",
+          "Functions that return a component",
+          "Components that have advanced state management",
+          "Components with nested routing"
+        ],
+        "correctAnswer": "Functions that return a component"
+      },
+      {
+        "id": 22,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useEffect` hook in React?",
+        "options": [
+          "To handle AJAX requests",
+          "To perform side effects in functional components",
+          "To manage component state",
+          "To create class components"
+        ],
+        "correctAnswer": "To perform side effects in functional components"
+      },
+      {
+        "id": 23,
+        "topic": "Intermediate",
+        "question": "How does React Router handle dynamic route parameters?",
+        "options": [
+          "By using the `:id` syntax",
+          "By defining routes in a separate file",
+          "By using the `component` prop",
+          "React Router does not support dynamic route parameters"
+        ],
+        "correctAnswer": "By using the `:id` syntax"
+      },
+      {
+        "id": 24,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useReducer` hook in React?",
+        "options": [
+          "To manage component state in class components",
+          "To handle user input in forms",
+          "To perform complex state logic",
+          "To optimize component rendering"
+        ],
+        "correctAnswer": "To perform complex state logic"
+      },
+      {
+        "id": 25,
+        "topic": "Intermediate",
+        "question": "Explain the concept of memoization in React.",
+        "options": [
+          "Caching the results of a function call",
+          "Optimizing rendering performance",
+          "Handling asynchronous operations",
+          "Implementing server-side rendering"
+        ],
+        "correctAnswer": "Caching the results of a function call"
+      },
+      {
+        "id": 26,
+        "topic": "Intermediate",
+        "question": "How can you share state between sibling components in React?",
+        "options": [
+          "Using the `props` object",
+          "Using the `context` API",
+          "By directly modifying the sibling component's state",
+          "By using the `setState` method"
+        ],
+        "correctAnswer": "Using the `context` API"
+      },
+      {
+        "id": 27,
+        "topic": "Intermediate",
+        "question": "What are controlled components in React?",
+        "options": [
+          "Components that use the `controlled` attribute",
+          "Components that manage their own state",
+          "Components that rely on external state management",
+          "Components that handle user input through state"
+        ],
+        "correctAnswer": "Components that handle user input through state"
+      },
+      {
+        "id": 28,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useContext` hook in React?",
+        "options": [
+          "To handle AJAX requests",
+          "To create context providers",
+          "To consume values from the context",
+          "To create class components"
+        ],
+        "correctAnswer": "To consume values from the context"
+      },
+      {
+        "id": 29,
+        "topic": "Intermediate",
+        "question": "Explain the concept of lazy loading in React.",
+        "options": [
+          "Loading components asynchronously",
+          "Loading data from an API",
+          "Delaying the rendering of components",
+          "Optimizing rendering performance"
+        ],
+        "correctAnswer": "Loading components asynchronously"
+      },
+      {
+        "id": 30,
+        "topic": "Intermediate",
+        "question": "How can you handle errors in React components?",
+        "options": [
+          "Using try-catch statements",
+          "By using the `error` attribute",
+          "By using the `ErrorBoundary` component",
+          "React components cannot handle errors"
+        ],
+        "correctAnswer": "By using the `ErrorBoundary` component"
+      },
+      {
+        "id": 31,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useMemo` hook in React?",
+        "options": [
+          "To memoize functions and optimize performance",
+          "To manage component state",
+          "To handle AJAX requests",
+          "To create class components"
+        ],
+        "correctAnswer": "To memoize functions and optimize performance"
+      },
+      {
+        "id": 32,
+        "topic": "Intermediate",
+        "question": "Explain the concept of forward refs in React.",
+        "options": [
+          "Referring to components in a forward direction",
+          "Passing refs from parent to child components",
+          "Optimizing rendering performance",
+          "Handling asynchronous operations"
+        ],
+        "correctAnswer": "Passing refs from parent to child components"
+      },
+      {
+        "id": 33,
+        "topic": "Intermediate",
+        "question": "How does React's virtual DOM improve performance?",
+        "options": [
+          "By replacing the actual DOM",
+          "By optimizing API requests",
+          "By reducing the need for direct DOM manipulation",
+          "By handling AJAX requests more efficiently"
+        ],
+        "correctAnswer": "By reducing the need for direct DOM manipulation"
+      },
+      {
+        "id": 34,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useCallback` hook in React?",
+        "options": [
+          "To memoize functions and optimize performance",
+          "To handle API requests",
+          "To manage component state",
+          "To create class components"
+        ],
+        "correctAnswer": "To memoize functions and optimize performance"
+      },
+      {
+        "id": 35,
+        "topic": "Intermediate",
+        "question": "Explain the concept of portals in React.",
+        "options": [
+          "Rendering components outside the root DOM element",
+          "Creating dynamic routes",
+          "Optimizing component rendering",
+          "Handling errors in components"
+        ],
+        "correctAnswer": "Rendering components outside the root DOM element"
+      },
+      {
+        "id": 36,
+        "topic": "Intermediate",
+        "question": "How can you optimize performance in React applications?",
+        "options": [
+          "By using the `performance` API",
+          "By reducing unnecessary renders with memoization",
+          "By increasing the size of the virtual DOM",
+          "By using inline styles"
+        ],
+        "correctAnswer": "By reducing unnecessary renders with memoization"
+      },
+      {
+        "id": 37,
+        "topic": "Intermediate",
+        "question": "What is the role of the `shouldComponentUpdate` method in React class components?",
+        "options": [
+          "To update the DOM directly",
+          "To optimize rendering performance",
+          "To handle user input in forms",
+          "To create functional components"
+        ],
+        "correctAnswer": "To optimize rendering performance"
+      },
+      {
+        "id": 38,
+        "topic": "Intermediate",
+        "question": "Explain the concept of the `useLayoutEffect` hook in React.",
+        "options": [
+          "To handle layout changes in the DOM",
+          "To manage component state",
+          "To handle AJAX requests",
+          "To create class components"
+        ],
+        "correctAnswer": "To handle layout changes in the DOM"
+      },
+      {
+        "id": 39,
+        "topic": "Intermediate",
+        "question": "What is the purpose of the `useImperativeHandle` hook in React?",
+        "options": [
+          "To create imperative animations",
+          "To expose functions from child components to parent components",
+          "To manage component state",
+          "To handle form submissions"
+        ],
+        "correctAnswer": "To expose functions from child components to parent components"
+      },
+      {
+        "id": 40,
+        "topic": "Intermediate",
+        "question": "How does React's context API work, and when is it useful?",
+        "options": [
+          "To handle AJAX requests",
+          "To manage component state",
+          "To share values like themes or user authentication across components without having to pass props manually",
+          "To create class components"
+        ],
+        "correctAnswer": "To share values like themes or user authentication across components without having to pass props manually"
+      }
+    ],
+    "advanced": [
+      {
+        "id": 41,
+        "topic": "Advanced",
+        "question": "Explain the concept of server-side rendering (SSR) in React.",
+        "options": [
+          "Rendering components on the server side",
+          "Optimizing client-side rendering",
+          "Handling API requests on the server side",
+          "Improving state management"
+        ],
+        "correctAnswer": "Rendering components on the server side"
+      },
+      {
+        "id": 42,
+        "topic": "Advanced",
+        "question": "What is the role of a higher-order component (HOC) in React?",
+        "options": [
+          "It handles API requests",
+          "It is used for styling",
+          "It is a function that takes a component and returns a new component",
+          "It manages state"
+        ],
+        "correctAnswer": "It is a function that takes a component and returns a new component"
+      },
+      {
+        "id": 43,
+        "topic": "Advanced",
+        "question": "Explain the concept of lazy loading in React.",
+        "options": [
+          "Loading components asynchronously",
+          "Loading data from an API",
+          "Delaying the rendering of components",
+          "Optimizing rendering performance"
+        ],
+        "correctAnswer": "Loading components asynchronously"
+      },
+      {
+        "id": 44,
+        "topic": "Advanced",
+        "question": "How can you implement code splitting in a React application?",
+        "options": [
+          "By using the `React.lazy` function",
+          "By using the `split` method",
+          "By manually separating code into different files",
+          "Code splitting is not possible in React"
+        ],
+        "correctAnswer": "By using the `React.lazy` function"
+      },
+      {
+        "id": 45,
+        "topic": "Advanced",
+        "question": "Explain the concept of memoization in React.",
+        "options": [
+          "Caching the results of a function call",
+          "Optimizing rendering performance",
+          "Handling asynchronous operations",
+          "Implementing server-side rendering"
+        ],
+        "correctAnswer": "Caching the results of a function call"
+      },
+      {
+        "id": 46,
+        "topic": "Advanced",
+        "question": "What are React hooks, and how do they differ from class components?",
+        "options": [
+          "Hooks are used for styling",
+          "Hooks are used for state management in functional components",
+          "Hooks are not part of React",
+          "Class components cannot use hooks"
+        ],
+        "correctAnswer": "Hooks are used for state management in functional components"
+      },
+      {
+        "id": 47,
+        "topic": "Advanced",
+        "question": "How does React's reconciliation algorithm work?",
+        "options": [
+          "By comparing virtual DOM elements",
+          "By updating the actual DOM directly",
+          "By using AJAX requests",
+          "Reconciliation is not relevant in React"
+        ],
+        "correctAnswer": "By comparing virtual DOM elements"
+      },
+      {
+        "id": 48,
+        "topic": "Advanced",
+        "question": "What is the purpose of the `useContext` hook in React?",
+        "options": [
+          "To handle AJAX requests",
+          "To create context providers",
+          "To consume values from the context",
+          "To create class components"
+        ],
+        "correctAnswer": "To consume values from the context"
+      },
+      {
+        "id": 49,
+        "topic": "Advanced",
+        "question": "Explain the concept of React's concurrent mode.",
+        "options": [
+          "Handling asynchronous operations",
+          "Optimizing rendering performance",
+          "Rendering components on the server side",
+          "Server-side rendering"
+        ],
+        "correctAnswer": "Optimizing rendering performance"
+      },
+      {
+        "id": 50,
+        "topic": "Advanced",
+        "question": "What is the role of the `useRef` hook in React?",
+        "options": [
+          "To manage component state",
+          "To create dynamic routes",
+          "To reference DOM elements in functional components",
+          "To handle API requests"
+        ],
+        "correctAnswer": "To reference DOM elements in functional components"
+      },
+      {
+        "id": 51,
+        "topic": "Advanced",
+        "question": "Explain the concept of React suspense.",
+        "options": [
+          "Handling asynchronous operations",
+          "Optimizing rendering performance",
+          "Server-side rendering",
+          "Loading components with suspense"
+        ],
+        "correctAnswer": "Loading components with suspense"
+      },
+      {
+        "id": 52,
+        "topic": "Advanced",
+        "question": "How can you handle code splitting and lazy loading in React with React Router?",
+        "options": [
+          "By using the `React.lazy` function",
+          "By defining routes with dynamic imports",
+          "By using the `component` prop in routes",
+          "Code splitting is not supported with React Router"
+        ],
+        "correctAnswer": "By defining routes with dynamic imports"
+      },
+      {
+        "id": 53,
+        "topic": "Advanced",
+        "question": "What is the purpose of the `useReducer` hook in React?",
+        "options": [
+          "To handle user input in forms",
+          "To manage complex state logic",
+          "To create class components",
+          "To optimize rendering performance"
+        ],
+        "correctAnswer": "To manage complex state logic"
+      },
+      {
+        "id": 54,
+        "topic": "Advanced",
+        "question": "Explain the concept of React Portals.",
+        "options": [
+          "Rendering components on the server side",
+          "Rendering components outside the root DOM element",
+          "Handling API requests on the server side",
+          "Optimizing rendering performance"
+        ],
+        "correctAnswer": "Rendering components outside the root DOM element"
+      },
+      {
+        "id": 55,
+        "topic": "Advanced",
+        "question": "How can you optimize performance in a React application using memoization?",
+        "options": [
+          "By using the `useMemo` hook",
+          "By increasing the size of the virtual DOM",
+          "By using inline styles",
+          "Performance optimization is not possible in React"
+        ],
+        "correctAnswer": "By using the `useMemo` hook"
+      },
+      {
+        "id": 56,
+        "topic": "Advanced",
+        "question": "What is the significance of React DevTools, and how can they aid in development?",
+        "options": [
+          "To handle AJAX requests",
+          "To optimize rendering performance",
+          "To debug and inspect React components",
+          "To manage API calls"
+        ],
+        "correctAnswer": "To debug and inspect React components"
+      },
+      {
+        "id": 57,
+        "topic": "Advanced",
+        "question": "Explain the purpose of the `React.memo` function.",
+        "options": [
+          "To memoize functions and optimize performance",
+          "To create class components",
+          "To manage API requests",
+          "To handle form submissions"
+        ],
+        "correctAnswer": "To memoize functions and optimize performance"
+      },
+      {
+        "id": 58,
+        "topic": "Advanced",
+        "question": "How does React Fiber contribute to improved performance in React applications?",
+        "options": [
+          "By introducing new rendering algorithms",
+          "By replacing the virtual DOM",
+          "By optimizing API requests",
+          "Fiber does not impact React performance"
+        ],
+        "correctAnswer": "By introducing new rendering algorithms"
+      },
+      {
+        "id": 59,
+        "topic": "Advanced",
+        "question": "What is the purpose of the `useDebugValue` hook in React?",
+        "options": [
+          "To optimize rendering performance",
+          "To handle AJAX requests",
+          "To enhance debugging capabilities in custom hooks",
+          "To create class components"
+        ],
+        "correctAnswer": "To enhance debugging capabilities in custom hooks"
+      },
+      {
+        "id": 60,
+        "topic": "Advanced",
+        "question": "Explain the concept of the React Context API and its use cases.",
+        "options": [
+          "To manage component state",
+          "To share values across components without prop drilling",
+          "To handle AJAX requests",
+          "To create class components"
+        ],
+        "correctAnswer": "To share values across components without prop drilling"
+      }
+    ]
+  }
+}
